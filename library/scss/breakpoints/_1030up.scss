@@ -1,0 +1,31 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Desktop Stylsheet
+
+This is the desktop size. It's larger than an iPad so it will only
+be seen on the Desktop.
+
+******************************************************************/
+
+.wrap {
+  width: 1040px;
+}
+
+/*********************
+CAROUSEL
+*********************/
+/*
+#carousel-wrapper {
+    #carousel {
+        .carousel-item {
+            width: 800px;
+            min-height: 300px;
+        }
+    }
+}
+*/
+.nav {
+    margin: 1.5em 0 auto;
+}
