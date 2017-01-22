@@ -184,9 +184,9 @@ jQuery(document).ready(function($) {
                   center: new google.maps.LatLng(51.5199653,-0.14743499999997312),
                   mapTypeId: google.maps.MapTypeId.ROADMAP
               },
-              londonBridge = {
+              koopsMillMews = {
                   zoom: 17,
-                  center: new google.maps.LatLng(51.5002255,-0.0814066),
+                  center: new google.maps.LatLng(51.49798793353077,-0.07201585465356065),
                   mapTypeId: google.maps.MapTypeId.ROADMAP
               },
               kempTown = {
@@ -195,7 +195,7 @@ jQuery(document).ready(function($) {
                   mapTypeId: google.maps.MapTypeId.ROADMAP
               };
           initMap(harleyStreet, 'Harley Street<br/>London', 'harley-st-map');
-          initMap(londonBridge, 'Koops Mill Mews<br/>London', 'london-bridge-map');
+          initMap(koopsMillMews, 'Koops Mill Mews<br/>London', 'london-bridge-map');
           initMap(kempTown, 'Lewes Crescent<br/>Brighton', 'kemp-town-map');
       });
     }
